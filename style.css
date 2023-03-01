@@ -1,0 +1,186 @@
+/* Style général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+  }
+  
+  /* En-tête */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contenu principal */
+  main {
+    padding: 80px 20px 20px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+  }
+  
+  .description {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .description h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .description img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .description p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .description ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .description li {
+    margin-bottom: 10px;
+  }
+  
+  .description li strong {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  /* Pied de page */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  
+  progress {
+    width: 90%;
+    height: 20px;
+    border: none;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-bottom: 5%;
+  }
+  
+  progress[value]::-webkit-progress-bar {
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+  
+  progress[value]::-webkit-progress-value {
+    background-color: #007bff;
+    border-radius: 10px;
+  }
+  
+  progress[value]::-moz-progress-bar {
+    background-color: #007bff;
+    border-radius: 10px;
+  }
+  
+  progress[value]::-ms-fill {
+    background-color: #007bff;
+    border-radius: 10px;
+  }
+
+  .competences {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  
+
+  .project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+    border: 3px solid #333;
+    padding: 5%;
+    border-radius: 5px;
+  }
+  
+  .project:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .project img {
+    width: 40%;
+    margin-right: 2rem;
+  }
+  
+  .project h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  .project a {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+  
+  .project a:hover {
+    background-color: #666;
+  }
+  
