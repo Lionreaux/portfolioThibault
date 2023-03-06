@@ -144,17 +144,15 @@ h1, h2 {
 
   .project table {
     border-collapse: separate;
-    border-spacing: 20px;
+    border-spacing: 3em;
   }
   
   .langages {
     background-color: #0077b6;
     color: white;
-    border: none;
-    width: 3em;
-    height: 2em;
-    border-radius: 25%;
-    text-align: center;
+    border-radius: 20%;
+    width: 3.5em;
+    height: 3em;
   }
   
 
