@@ -141,10 +141,17 @@ h1, h2 {
     margin-bottom: 5%;
   }
 
+  .project img {
+    margin: auto;
+  }
 
   .project table {
     border-collapse: separate;
     border-spacing: 3em;
+  }
+
+  .project a {
+    text-decoration: none;
   }
   
   .langages {
@@ -153,6 +160,7 @@ h1, h2 {
     border-radius: 20%;
     width: 3.5em;
     height: 3em;
+    text-align: center;
   }
   
 
