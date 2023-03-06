@@ -140,6 +140,26 @@ h1, h2 {
     margin-top: 4%;
     margin-bottom: 5%;
   }
+
+
+  .project table {
+    border-collapse: separate;
+    border-spacing: 20px;
+  }
+  
+  .langages {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    width: 3em;
+    height: 2em;
+    border-radius: 25%;
+    text-align: center;
+  }
+  
+
+  
+
   /* Styles pour les écrans plus grands que 768px */
 @media screen and (min-width: 768px) {
   header {
