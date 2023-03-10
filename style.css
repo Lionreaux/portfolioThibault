@@ -226,9 +226,11 @@
   nav li {
     margin: 10px 0;
   }
+  body {
+    margin-bottom: 2%;
+  }
   footer {
     padding: 10px;
-    margin-bottom: 2%;
   }
 }
 
@@ -243,9 +245,11 @@
   nav li {
     margin: 0 20px;
   }
+  body {
+    margin-bottom: 2%;
+  }
   footer {
     padding: 10px 20px;
-    margin-bottom: 2%;
   }
 }
 
@@ -260,9 +264,11 @@
   nav li {
     margin: 0 10px;
   }
+  body {
+    margin-bottom: 2%;
+  }
   footer {
     padding: 10px 20px;
-    margin-bottom: 2%;
   }
 }
 
