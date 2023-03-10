@@ -9,7 +9,13 @@
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #f7f7f7;
+    background-color: #cfe2f3;
+  }
+
+  #Progression {
+    display: block;
+    margin: auto;
+    text-align: center;
   }
   
   /* En-tête */
@@ -110,7 +116,7 @@
     border: none;
     background-color: #ddd;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
   }
   
   progress[value]::-webkit-progress-bar {
@@ -133,9 +139,33 @@
     border-radius: 10px;
   }
 
+  .textComp {
+    float: left;
+  }
+
   .competences {
     margin-top: 10%;
     margin-bottom: 10%;
+    float: right;
+  }
+  table {
+    width: 100%;
+  }
+  hr {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9em;
+  }
+  
+  .comp{
+    width: 100%;
+  }
+
+  .descri {
+    width: 50%;
   }
   
 

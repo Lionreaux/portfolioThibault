@@ -63,7 +63,7 @@ h1, h2 {
     margin-bottom: 20px;
   }
   
-  .project a {
+  .project .titreProjet {
     display: inline-block;
     padding: 10px 20px;
     background-color: #0077b6;
@@ -72,9 +72,15 @@ h1, h2 {
     transition: background-color 0.2s ease-in-out;
   }
   
-  .project a:hover {
+  .project .titreProjet:hover {
     background-color: #005b8f;
   }
+
+  .project a {
+    color: black;
+  }
+
+
   
   footer {
     background-color: #333;
