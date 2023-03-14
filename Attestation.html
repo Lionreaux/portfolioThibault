@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attestations</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -14,16 +15,16 @@
             <li><a href="index.html">Accueil</a></li>
             <li><a href="projets.html">Projets</a></li>
             <li><a href="CV.pdf">CV</a></li>
-            <li><a href="Attestation.html">Attestation</a></li>
+            <li><a href="Attestation.html">Documents</a></li>
           </ul>
         </nav>
       </header>
 
-      <button>Attestation de première année</button>
+      <button id="dlAttes1" onclick="telecharge('attestation1')">Attestation de première année</button>
 
-      <button>Attestation de deuxième année</button>
+      <button id="dlAttes2" onclick="telecharge('attestation2')">Attestation de deuxième année</button>
 
-
+      <button id="dlTableau" onclick="telecharge('tableau')">Tableau de compétences E4</button>
 
 
 
